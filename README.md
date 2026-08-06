@@ -41,13 +41,13 @@ light one.
 ## Naming
 
 ```
-v1/h<hue>-<d|l>-p<pattern>.png     e.g. v1/h07-d-p13.png
+v2/h<hue>-<d|l>-p<pattern>.png     e.g. v2/h07-d-p05.png
 ```
 
 A session's avatar is chosen by `sha256(cc_uuid)`, so it is the same picture
 forever, on every host, across restarts.
 
-**The `v1/` prefix is load-bearing.** Slack caches an avatar by its source URL
+**The `v2/` prefix is load-bearing.** Slack caches an avatar by its source URL
 and does not re-fetch a URL it has already seen — verified against the live API.
 New artwork published at an old path would therefore stay invisible forever, so
 changing the art means bumping the prefix.
