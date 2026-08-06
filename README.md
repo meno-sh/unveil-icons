@@ -24,15 +24,15 @@ No credentials, no source, and nothing about the harness lives here.
 
 The MenoClaw mark is a square with an inscribed diamond — a *construction*
 rather than an illustration, so it generates. Each avatar lights some subset of
-four concentric diamonds inside the mark:
+three concentric diamonds inside the mark:
 
 | axis | values |
 | --- | --- |
 | hue | 18, spaced 20° from the brand navy (217°) |
 | polarity | 2 — mark reversed out of a saturated plate, or drawn on a tinted one |
-| ring pattern | 15 (every non-empty subset of four rings) |
+| ring pattern | 7 (every non-empty subset of three rings) |
 
-**540 images**, 128×128 PNG. The set is fixed; it does not grow with the fleet.
+**252 images**, 128×128 PNG. The set is fixed; it does not grow with the fleet.
 
 Both polarities carry a coloured plate on purpose. Nothing is ever pure white,
 so an avatar is never a glaring block on Slack's dark theme nor a hole in its
