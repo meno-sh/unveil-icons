@@ -1,7 +1,7 @@
-# menoclaw-icons
+# unveil-icons
 
-Per-agent Slack avatars for [MenoClaw](https://github.com/meno-sh/Agent-Harnessing),
-generated from the MenoClaw mark.
+Per-agent Slack avatars for [Unveil](https://github.com/meno-sh/Agent-Harnessing),
+generated from the Unveil mark.
 
 ## Why this repository is public
 
@@ -22,7 +22,7 @@ No credentials, no source, and nothing about the harness lives here.
 
 ## What the images are
 
-The MenoClaw mark is a square with an inscribed diamond — a *construction*
+The Unveil mark is a square with an inscribed diamond — a *construction*
 rather than an illustration, so it generates. Each avatar lights some subset of
 three concentric diamonds inside the mark:
 
@@ -57,7 +57,7 @@ changing the art means bumping the prefix.
 These are build output. The generator is
 [`tools/gen_avatars.py`](https://github.com/meno-sh/Agent-Harnessing/blob/main/tools/gen_avatars.py)
 in the harness repository; the seed→image mapping lives beside the runtime in
-`menoclaw_mcp/slack/avatars.py` so the two cannot disagree.
+`unveil_mcp/slack/avatars.py` so the two cannot disagree.
 
 ```
 python3 tools/gen_avatars.py --out <dir>
